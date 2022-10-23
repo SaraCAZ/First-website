@@ -1,7 +1,6 @@
 body {
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
-    overflow: hidden;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
@@ -16,6 +15,7 @@ display: flex;
   background: #1f2937;
    
 }
+
 .Logo{
     display: flex;
     margin: 100px;
@@ -43,33 +43,83 @@ a {
   }
 
  .Awesome {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
-    background-color: #1f2937;
-    padding: 50px;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f2937;
  }
+
  
 .rubrik {
     font-size: 48px;
     color:#f9faf8;
     font-weight: bolder; 
-font-family: Roboto, sans-serif;
+font-family: Roboto, sans-serif; 
+ margin-left:  100px;
 
 }
-.underrubrik {
-    display: flex;
-    font-size: 18px;
-    color:#e5e7eb;
-}
-img {
+.text ,button {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.underrubrik {
+    font-size: 18px;
+    color:#e5e7eb;
+    margin-left:  100px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #f9faf8;
+    font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin-left: 100px;
+  margin-top: 20px;
+ 
+}
+.bild{
+    display: flex;
+    align-content: space-around;
+    border-radius: 10%;
   width: 300px;
   height: 200px;
+margin:100px;
+margin-right: 150px;
+}
+
+
+.random {
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+font-size: 36px;
+color: #1f2937;
+font-weight: bolder;
+margin:40px;
 
 }
+
+.bilder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.bild1, .bild2, .bild3, .bild4{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 85px;
+    border-radius: 10px;
+}
+
 
