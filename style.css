@@ -107,25 +107,14 @@ margin:40px;
 }
 
 
-#bilden{
-    display: flex;
-    flex-direction: row;
-   justify-content: center;
-    width: 150px;
-    height: 150px;
-    text-align: center;
-
-}
 .bilder{
     display: flex;
-    align-items: center;
     flex-direction: row;
-    justify-content: space-evenly;
     list-style-type: none;
-    max-width: 700px;
-    margin: 0 auto;
-    gap: 40px;
-
+    justify-content:space-around;
+    margin: 40px;
+    
+ 
 }
 
 .bild1, .bild2, .bild3, .bild4{
@@ -137,6 +126,50 @@ margin:40px;
 }
 
 p{
- display: flex;
  text-align: center;
  padding:auto;
+ margin-bottom: 50px;
+ 
+}
+.bilder li {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+
+}
+.bilder {
+max-width: 700px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.Homer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:#e5e7eb;
+    max-width:fit-content;
+    padding: 100px;
+}
+
+.Citat {
+
+   text-align: center;
+   font-weight: lighter;
+   font-style: italic;
+   color:#1f2937;      
+   font-size: 36px;
+   margin-left: 40px;
+   margin-right: 40px;
+      
+}
+
+.Quote{
+display: flex;
+margin-top: 40px;
+margin-left: 700px;
+    font-weight: bolder;
+    color: #1f2937;
+}
